@@ -24,7 +24,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    color: greenyellow;
+    color: whitesmoke;
 }
 
 /* Footer Styles */
@@ -52,7 +52,7 @@ footer a:hover {
     background-color: rgb(4, 4, 68);
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     margin: 0;
 }
 
@@ -71,7 +71,7 @@ footer a:hover {
 .splash p {
     font-family: 'Roboto', sans-serif;
     color: whitesmoke;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 /* Horizontal Rules */
@@ -80,8 +80,7 @@ hr {
     height: 5px;
 }
 
-/* Sections */
-section {}
+
 
 /* Section Headings */
 section h2 {
@@ -102,7 +101,7 @@ section a {
     font-weight: bold;
 }
 section a:hover {
-    color: red;
+    color: yellow;
     background-color: #123456;
     text-decoration: none;
 }
@@ -135,8 +134,8 @@ dl dt{
 }
 
 .card {
-    background-color: #f9f9f9;
-    padding: 0px;
+    background-color: #ebebeb;
+    padding: 5px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -146,7 +145,7 @@ dl dt{
 
 .card img {
     width: 100%;
-    max-height: 120px;
+    max-height: 220px;
     object-fit: contain;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -157,14 +156,14 @@ dl dt{
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #333333;
+    color: #292828;
 }
 
 /* Contact Page Styles */
 .one-col {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
 }
 
@@ -175,9 +174,9 @@ form {
 }
 
 form input, form textarea {
-    font-size: 1.2em;
-    padding: 10px;
-    border: 1px solid grey;
+    font-size: 1em;
+    padding: 12px;
+    border: 1px solid rgb(82, 62, 62);
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
@@ -186,15 +185,15 @@ form input, form textarea {
 form input:focus, form textarea:focus {
     outline: none;
     border: 1px solid lightskyblue;
-    box-shadow: 0 0 5px rgba(0, 115, 230, 0.5);
+    box-shadow: 0 0 5px rgba(58, 64, 70, 0.5);
 }
 
 form button {
     background-color: wheat;
     color: darkblue;
     font-size: 1.2em;
-    padding: 10px 15px;
-    border: none;
+    padding: 10px 10px;
+    
     border-radius: 5px;
     cursor: pointer;
 }
