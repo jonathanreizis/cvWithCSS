@@ -173,34 +173,38 @@ dl dt{
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    
+    gap: 5px;
 }
 
 form input, form textarea {
     font-size: 1em;
-    padding: 12px;
+    padding: 6px;
     border: 1px solid rgb(82, 62, 62);
     border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;
+    display: cem;
+    width: 50%;
+    
+    box-sizing:border-box
 }
 
 form input:focus, form textarea:focus {
     outline: none;
     border: 1px solid lightskyblue;
     box-shadow: 0 0 5px rgba(58, 64, 70, 0.5);
+    text-align: center;
 }
 
 form button {
     background-color: wheat;
     color: darkblue;
-    font-size: 1.2em;
-    padding: 10px 10px;
-    
+    font-size: 1em;
+    padding: 1px 10px;
+    width: 50%;
     border-radius: 5px;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: darkslategrey;
+    background-color: rgb(13, 46, 46);
 }
