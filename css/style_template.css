@@ -1,210 +1,204 @@
 /* General Styles */
 body {
-    margin: 0;
+  margin: 0;
 }
 
 /* Nav Styles */
 nav {
-    background-color: gray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
 }
 
-nav p{
-    font-size: 2em;
-    font-family:'Times New Roman', Times, serif
+nav p {
+  font-size: 1.9em;
+  font-family: "Times New Roman", Times, serif;
 }
 
 nav a {
-    padding: 0px;
-    color: black;
-    
-    
+  padding: 0px;
+  color: black;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    color: whitesmoke;
+  text-decoration: underline;
+  color: whitesmoke;
 }
 
 /* Footer Styles */
 footer {
-    background-color:  rgb(4, 4, 68);
-    color: white;
-    display: flex;
-    justify-content: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  background-color: rgb(4, 4, 68);
+  color: white;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Splash Section */
 .splash {
-    background-color: rgb(4, 4, 68);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
+  background-color: rgb(4, 4, 68);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
 }
 
 .splash h1 {
-    font-size: 2.5em;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .splash img {
-    border-radius: 50px;
-    border: 2px solid wheat;
-    margin-bottom: 20px;
+  border-radius: 50px;
+  border: 2px solid wheat;
+  margin-bottom: 20px;
 }
 
 .splash p {
-    font-family: 'Roboto', sans-serif;
-    color: whitesmoke;
-    font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+  font-size: 1em;
 }
 
 /* Horizontal Rules */
 hr {
-    background-color: black;
-    height: 3px;
+  background-color: black;
+  height: 3px;
 }
-
-
 
 /* Section Headings */
 section h2 {
-    font-family: 'Roboto', sans-serif;
-    color: #5ea4e9
-    
+  font-family: "Roboto", sans-serif;
+  color: #5ea4e9;
 }
 
 /* Paragraph Styles */
 section p {
-    font-size: 1em;
-    text-align: justify;
-    color: #4b286d;
+  font-size: 1em;
+  text-align: justify;
+  color: #4b286d;
 }
-
 
 section a {
-    color: rgb(61, 61, 163);
-    font-weight: bold;
+  color: rgb(61, 61, 163);
+  font-weight: bold;
 }
 section a:hover {
-    color: yellow;
-    background-color: #308ce9;
-    text-decoration: none;
+  color: yellow;
+  background-color: #308ce9;
+  text-decoration: none;
 }
 
 /* List Styles */
 ul {
-    list-style-type: square;
-    font-size: 1em;
+  list-style-type: square;
+  font-size: 1em;
 }
 
 dl {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    font-size: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  font-size: 1em;
 }
-dl dt{
-    color: rgb(48, 28, 28);
-    
+dl dt {
+  color: rgb(48, 28, 28);
 }
-
 
 /* Project Section */
 .three-col {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 20px 0;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+  padding: 10px;
 }
 
 .card {
-    background-color: #ebebeb;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    overflow: hidden;
+  background-color: #ebebeb;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
 }
 
 .card img {
-    width: 100%;
-    max-height: 220px;
-    object-fit: contain;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    display: block;
+  width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
 }
 
 .card h3 {
-    font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #292828;
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #292828;
 }
 
 /* Contact Page Styles */
 .one-col {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
 }
 
-form input, form textarea {
-    font-size: 1em;
-    padding: 6px;
-    border: 1px solid rgb(82, 62, 62);
-    border-radius: 5px;
-    display: cem;
-    width: 50%;
-    
-    box-sizing:border-box
+form input,
+form textarea {
+  font-size: 1em;
+  padding: 6px;
+  border: 1px solid rgb(82, 62, 62);
+  border-radius: 5px;
+  display: cem;
+  width: 50%;
+
+  box-sizing: border-box;
 }
 
-form input:focus, form textarea:focus {
-    outline: none;
-    border: 1px solid lightskyblue;
-    box-shadow: 0 0 5px rgba(58, 64, 70, 0.5);
-    text-align:center;
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border: 1px solid lightskyblue;
+  box-shadow: 0 0 5px rgba(58, 64, 70, 0.5);
+  text-align: center;
 }
 
 form button {
-    background-color: wheat;
-    color: darkblue;
-    font-size: 1em;
-    padding: 1px 10px;
-    width: 50%;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: wheat;
+  color: darkblue;
+  font-size: 1em;
+  padding: 1px 10px;
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 form button:hover {
-    background-color: rgb(13, 46, 46);
+  background-color: rgb(13, 46, 46);
 }
